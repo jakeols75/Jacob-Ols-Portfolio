@@ -1,0 +1,34 @@
+body {
+    background-color: #A8896C;
+}
+header {
+    background-color: #60A561; /*#60A561 61B292 */
+}
+#divColor {
+    background-color: #AED09E;
+}
+h1 {
+    font-family: 'Merriweather', serif;
+}
+h2{
+    font-family: 'Merriweather', serif;
+}
+h3{
+    font-family: 'Merriweather', serif;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    font-family: 'PT Serif', serif;
+    
+}
+a:hover{
+    background-color: #F7FFE5;
+}
+ol{
+    font-family: 'Montserrat', sans-serif;
+}
+footer{
+    background-color: #61B292;
+}

@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--CSS stylesheet link-->
+    <link rel="stylesheet" href="CSS/style.css" />
+    <!--Tailwind CSS link-->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=PT+Serif&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Jacob's Portfolio</title>
+  </head>
+  <body>
+    <header class="flex flex-row justify-between items-center p-5">
+      <img
+        src="assets/Logo.jpg"
+        alt="Jake's Design image"
+        class="h-20 rounded-full"
+      />
+      <nav class="flex flex-col md:flex-row md:space-x-10">
+        <a href="#bioContainer" class="font-bold underline pb-2">About Me</a>
+        <a href="#project" class="font-bold underline pb-2">Projects</a>
+        <a href="#skills" class="font-bold underline pb-2">Skills</a>
+        <a href="#contactMe" class="font-bold underline pb-2">Contact Me</a>
+      </nav>
+    </header>
+
+    <!--Bio-->
+
+    <div id="bioContainer">
+      <div class="text-center items-center mt-10 place-content-center">
+        <h1 class="text-2xl md:text-4xl lg:text-6xl">
+          Hi, I'm Jake. A Web Developer.
+        </h1>
+      </div>
+      <div class="flex flex-row place-content-center my-10">
+        <img
+          src="assets/profile-picture.jpeg"
+          alt="Jacob family Image"
+          class="h-44 w-auto rounded-full"
+        />
+      </div>
+      <div
+        class="flex flex-wrap md:flex-col-2 md:flex-nowrap gap-5 px-10 w-full place-content-center"
+      >
+        <div
+          id="divColor"
+          class="bg-blue-200 w-4/5 md:w-1/2 h-auto text-center items-center m-5 rounded-lg"
+        >
+          <h2 class="text-xl p-5">Personal</h2>
+          <p class="leading-6 text-lg p-5">
+            I am located in North East Ohio. I live with my wife, Megan and my
+            two children Iris and Revan. I'm 26 years old and enjoy learning new
+            and interesting information every day. I currently manage a
+            Valvoline Instant Oil Change location in Massillon, Ohio. I have
+            made learning and self improvement a way of life by challenging
+            myself to improve each day working toward a larger goal.
+          </p>
+        </div>
+        <div
+          id="divColor"
+          class="bg-blue-200 w-4/5 md:w-1/2 h-auto text-center items-center m-5 rounded-lg"
+        >
+          <h2 class="text-xl p-5">Education</h2>
+          <p class="leading-6 text-lg p-5">
+            Currently I attend school at FullSail University studying for my
+            bacholers degree in Web Developement. I studied computer science for
+            two years at
+            <a href="https://mcjvs.edu/" class="text-blue-700"
+              >The Medina County Career Center</a
+            >
+            during my junior and senior year of highschool. After highschool I
+            begin learning more development languages such as: C#, HTML, CSS,
+            Javascript, React.js, and a bit of Swift. Upon learning different
+            programming languages, I also learned to work with many different
+            text editors like github, git bash, and unity.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!--Projects-->
+    <div id="project">
+      <h1 class="text-2xl md:text-4xl font-bold text-center mt-10">Projects</h1>
+    </div>
+    <div
+      class="grid grid-rows-2 md:grid-cols-2 gap-3 mx-24 my-10 place-content-center"
+    >
+      <!--BMI Calculator-->
+      <div
+        class="grid grid-row-2 gap-3 h-full text-center border-4 border-black place-content-center"
+      >
+        <div class="h-1/2 w-4/5 mx-auto">
+          <h2 class="text-2xl text-bold">BMI Calculator</h2>
+          <img
+            src="assets/bmiCalc.png"
+            alt="BMI Calulator webpage"
+            class="h-72 w-auto mt-5"
+          />
+        </div>
+        <div
+          class="flex flex-wrap md:flex-row gap-3 place-content-center border-t-4 border-black"
+        >
+          <a
+            href=" https://jakeols75.github.io/BMI/"
+            class="bg-white w-36 h-10 pt-2 rounded-lg text-center w-1/2"
+            >Veiw Webpage</a
+          >
+          <a
+            href="https://github.com/jakeols75/BMI"
+            class="bg-white w-36 h-10 pt-2 rounded-lg text-center w-1/2"
+            >Veiw Files</a
+          >
+          <p class="text-md md:text-lg px-5">
+            The BMI calculator was created using a combination of HTML, CSS, and
+            Javascript. While using this webpage the user will be able to enter
+            in their height, and weight and press calculate. When the user
+            clicks the calculate button the webpage will calculate their BMI for
+            them and displays an image of their BMI on a chart.
+          </p>
+        </div>
+      </div>
+
+      <!--2nd project Simon Game-->
+      <div
+        class="grid grid-row-2 gap-3 h-full text-center border-4 border-black place-content-center"
+      >
+        <div class="h-1/2 w-4/5 mx-auto">
+          <h2 class="text-2xl text-bold">Simon Game</h2>
+          <img
+            src="assets/Simon-Says.png"
+            alt="BMI Calulator webpage"
+            class="h-72 w-auto mt-10"
+          />
+        </div>
+        <div
+          class="flex flex-wrap gap-3 place-content-center border-t-4 border-black"
+        >
+          <a
+            href="https://jakeols75.github.io/simon-game/"
+            class="bg-white w-36 h-10 pt-2 rounded-lg text-center w-1/2"
+            >View Webpage</a
+          >
+          <a
+            href="https://github.com/jakeols75/simon-game"
+            class="bg-white w-36 h-10 pt-2 rounded-lg text-center w-1/2"
+            >Veiw Files</a
+          >
+          <p class="text-md md:text-lg px-5">
+            The Simon game was created using a combination of HTML, CSS and
+            Javascript. The user presses any key to start and follows the
+            pattern. Each time the user gets the pattern correct they will
+            advance to the next level. If the user gets the pattern incorrect
+            the screen will flash red and let the user know that they clicked
+            the wrong color and to press any key to restart.
+          </p>
+        </div>
+      </div>
+      <!--Project 3 Robo Friends-->
+      <div
+        class="grid grid-row-2 gap-3 h-full text-center border-4 border-black place-content-center"
+      >
+        <div class="h-1/2 w-4/5 mx-auto">
+          <h2 class="text-2xl text-bold">RoboFriends</h2>
+          <img
+            src="assets/RoboFriends.png"
+            alt="BMI Calulator webpage"
+            class="h-72 w-auto mt-10"
+          />
+        </div>
+        <div
+          class="flex flex-wrap gap-3 place-content-center border-t-4 border-black"
+        >
+          <a
+            href="https://jakeols75.github.io/robofriends/"
+            class="bg-white w-36 h-10 pt-2 rounded-lg text-center w-1/2"
+            >View Webpage</a
+          >
+          <a
+            href="https://github.com/jakeols75/robofriends"
+            class="bg-white w-36 h-10 pt-2 rounded-lg text-center w-1/2"
+            >Veiw Files</a
+          >
+          <p class="text-md md:text-lg px-5">
+            RoboFriends was created using React.js, Node, and NPM. On
+            RoboFriends users can search for contact information for friends,
+            family, or coworkers.
+          </p>
+        </div>
+      </div>
+      <!--Project 4 fan page-->
+      <div
+        class="grid grid-row-2 gap-3 h-full text-center border-4 border-black place-content-center"
+      >
+        <div class="h-1/2 w-4/5 mx-auto">
+          <h2 class="text-2xl text-bold">Demon Slayer Fan-Page</h2>
+          <img
+            src="assets/fabPage.png"
+            alt="BMI Calulator webpage"
+            class="h-72 w-auto mt-10"
+          />
+        </div>
+        <div
+          class="flex flex-wrap gap-3 place-content-center border-t-4 border-black"
+        >
+          <a
+            href="https://jakeols75.github.io/fanPage/"
+            class="bg-white w-36 h-10 pt-2 rounded-lg text-center w-1/2"
+            >View Webpage</a
+          >
+          <a
+            href="https://github.com/jakeols75/fanPage"
+            class="bg-white w-36 h-10 pt-2 rounded-lg text-center w-1/2"
+            >View Files</a
+          >
+          <p class="text-md md:text-lg px-5">
+            My Demon Slayer fan page was created using HTML, and TailwindCSS.
+            This page shows users my favorite show, and my favorite episode of
+            the show.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!--Skills-->
+    <div id="skills">
+      <h1 class="text-center text-2xl md:text-4xl">Skills</h1>
+      <div
+        class="flex flex-wrap md:flex-col-2 md:flex-nowrap gap-5 px-10 w-full place-content-center"
+      >
+        <div
+          id="divColor"
+          class="bg-blue-200 w-4/5 md:w-1/2 h-48 text-center items-center m-5 rounded-lg"
+        >
+          <h2 class="text-xl p-5">Development Skills</h2>
+          <ol>
+            <li>HTML</li>
+            <li>CSS / Tailwind CSS</li>
+            <li>Javascript / react.js</li>
+            <li>C#</li>
+            <li>Node / NPM</li>
+          </ol>
+        </div>
+        <div
+          id="divColor"
+          class="bg-blue-200 w-4/5 md:w-1/2 h-48 text-center items-center m-5 rounded-lg"
+        >
+          <h2 class="text-xl p-5">General Skills</h2>
+          <ol>
+            <li>GitHub / Git Bash</li>
+            <li>Visual Studio Code</li>
+            <li>Written / Verbal Communnication</li>
+            <li>Management / Leadership</li>
+            <li>Time Management</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+    <!--Contact Me-->
+    <footer id="contactMe" class="text-center mt-10">
+      <!--contect info-->
+      <div
+        class="flex flex-col md:flex-row gap-7 justify-center items-center px-10 w-full pt-5"
+      >
+        <div class="h-14 w-56 md:w-66 rounded-lg md:rounded-l-lg bg-white">
+          <a href="mailto: jacob.ols@yahoo.com" class="flex">
+            <p class="text-black p-2 pt-3">Jacob.ols@yahoo.com</p>
+            <img src="assets/EmailIcon.png" alt="Email Icon" class="h-14" />
+          </a>
+          <!-- <p class="pt-5 mx-2 text-black"></p> -->
+        </div>
+        <div class="h-14 w-56 md:w-66 flex bg-white rounded-lg md:rounded-r-lg">
+          <img
+            src="assets/cell-phone-icon.png"
+            alt="Phone Icon"
+            class="h-14 bg-blue-200"
+          />
+          <a href="tel:330-441-6041" class="p-2 pt-3 text-black"
+            >330-441-6041</a
+          >
+        </div>
+      </div>
+      <!--Social tags-->
+      <div
+        class="flex flex-col md:flex-row gap-5 justify-center items-center text-white pt-10"
+      >
+        <div class="items-center">
+          <a href="https://www.linkedin.com/in/jacob-ols-93a340160/"
+            ><img src="assets/linkedin.png" alt="twitter icon" class="h-14" />
+            <p>Linkedin</p>
+          </a>
+        </div>
+        <div class="items-center">
+          <a href="https://twitter.com/OlsJacob_"
+            ><img src="assets/twitter.png" alt="Twitter icon" class="h-14" />
+            <p>Twitter</p>
+          </a>
+        </div>
+        <div class="items-center">
+          <a href="https://github.com/jakeols75"
+            ><img src="assets/github.png" alt="github" class="h-14" />
+            <p>Github</p>
+          </a>
+        </div>
+      </div>
+      <!--Back to top button-->
+      <div class="place-content-center text-black pt-3">
+        <div class="items-center">
+          <p>Jacob-Ols Dev2319</p>
+        </div>
+      </div>
+      <div class="grid place-content-end">
+        <a href="#top" class="text-white mr-10 mb-5"
+          ><img src="assets/upIcon.png" alt="back to top"
+        /></a>
+      </div>
+    </footer>
+  </body>
+</html>
